@@ -80,7 +80,7 @@ header div.middle form input{
     border: none;
     background-color: #F6F6F6;
     color: #807D7E;
-    cursor: pointer;
+
 }
 header div.middle form a.icon{
     color: #807D7E;
@@ -151,7 +151,7 @@ header .right ul li a i{
 #Men .wrapper{
 
 }
-#Men .products{
+#Men .product{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -214,6 +214,10 @@ header .right ul li a i{
 #Women .categories span.img{
     display: block;
     margin-bottom: 1rem;
+}
+#Women .categories span.one{
+    width: 80%;
+    display: block;
 }
 #Women .categories span.content{
     display: flex;
